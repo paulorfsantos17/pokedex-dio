@@ -1,0 +1,39 @@
+:root {
+  --green-background-card : #49d0b0;
+  --green-background-type : #61E2C9;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1::first-letter {
+  text-transform: uppercase;
+}
+
+.content {
+  padding: .5rem ;
+}
+
+.content-about {
+  height: 100vh;
+}
+
+.button-return {
+  background-color: transparent;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  color: #fff;
+  margin: .5rem;
+  margin-bottom: 0;
+}
+
+.button-return i{
+  color: #fff;
+  font-size: 2rem;
+}
